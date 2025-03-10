@@ -1,0 +1,13 @@
+.image-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 210px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.image-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
